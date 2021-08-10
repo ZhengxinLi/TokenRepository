@@ -47,6 +47,11 @@ class SpringbootApplicationTests {
 
 
     public static class task implements Callable<Integer>{
+
+        public void setVersion(int version) {
+            this.version = version;
+        }
+
         private int version = 0;
         private final String pj;
         private int ENTRY_MAX = 11;
@@ -69,6 +74,7 @@ class SpringbootApplicationTests {
         public void versionShift(){
             this.version += 1;
         }
+
 
     }
 
