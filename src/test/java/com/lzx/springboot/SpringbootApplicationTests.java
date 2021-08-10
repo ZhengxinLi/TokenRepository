@@ -72,7 +72,6 @@ class SpringbootApplicationTests {
         }
 
 
-
         public void setENTRY_MAX(int ENTRY_MAX) {
             this.ENTRY_MAX = ENTRY_MAX;
         }
