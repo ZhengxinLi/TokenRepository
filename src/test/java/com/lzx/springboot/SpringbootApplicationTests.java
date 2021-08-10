@@ -70,6 +70,9 @@ class SpringbootApplicationTests {
             this.version += 1;
         }
 
+        public void setENTRY_MAX(int ENTRY_MAX) {
+            this.ENTRY_MAX = ENTRY_MAX;
+        }
     }
 
 }
