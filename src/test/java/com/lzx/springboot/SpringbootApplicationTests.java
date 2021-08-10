@@ -71,11 +71,11 @@ class SpringbootApplicationTests {
             return 1;
         }
 
-        public void versionShift(){
-            this.version += 1;
+
+
+        public void setENTRY_MAX(int ENTRY_MAX) {
+            this.ENTRY_MAX = ENTRY_MAX;
         }
-
-
     }
 
 }
