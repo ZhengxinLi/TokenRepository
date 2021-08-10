@@ -74,9 +74,6 @@ class SpringbootApplicationTests {
             this.version += 1;
         }
 
-        public int getVersion(){
-            return this.version;
-        }
     }
 
 }
