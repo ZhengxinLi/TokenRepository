@@ -52,6 +52,7 @@ class SpringbootApplicationTests {
         private int ENTRY_MAX = 10;
         int b = 0;
         private int a = 0;
+        private int c = 0;
 
         public task(String pj){
             this.pj = pj;
